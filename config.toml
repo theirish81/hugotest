@@ -2,3 +2,17 @@ baseURL = "https://theirish81.github.io/hugotest"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about"
+[[menu.main]]
+  name = "Stuff"
+  weight = 2
+  url = "stuff"
